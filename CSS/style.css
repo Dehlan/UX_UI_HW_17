@@ -1,0 +1,222 @@
+body {
+    font-family: 'Karla';
+    color: white;
+    background-color: #212C2C;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background: #212C2C;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.Logo{
+    float: left;
+    padding: 5px 0;
+
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 25px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.heroimg {
+    height: 600px;
+    padding: 25px;
+    padding-bottom: 500px;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #2F3F3C;
+    padding: 50px;
+}
+li{
+    margin-left: 15px;
+    padding-top: 10px;
+    list-style: none;
+    display: inline-block;
+}
+.button{
+    width: 233px;
+    height: 28px;
+    
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    background-color: transparent;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 34px;
+    gap: 10px;
+    position: absolute;
+    width: 301px;
+    height: 58px;
+    border: 2px solid #F9C593;
+    border-radius: 8px;
+
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 64px;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 24px;
+}
+
+.emailbutton{
+
+    /* Email */
+
+
+    width: 48px;
+    height: 21px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+
+
+    color: #FFFFFF;
+    background-color: transparent;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 29px;
+    gap: 10px;
+
+    
+    width: 106px;
+    height: 47px;
+
+    border: 2px solid #F9C593;
+    border-radius: 8px;
+}
+.linkedinbutton{
+    /* Email */
+
+
+    width: 48px;
+    height: 21px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+
+
+    color: #FFFFFF;
+    background-color: transparent;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 18px;
+    gap: 10px;
+
+    
+    width: 106px;
+    height: 47px;
+
+    border: 2px solid #F9C593;
+    border-radius: 8px;
+}
+
+   .Dylan {
+       background: linear-gradient(180deg, #F9C593 58.33%, rgba(255, 126, 2, 0) 100%);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       background-clip: text;
+       font-size: 48px;
+   }
+   .Welcome {
+        font-size: 64px;
+   }
+   .containerf{
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+   }
+p {
+    font-size:24px;
+}
+.Contact{
+    background: linear-gradient(180deg, #F9C593 58.33%, rgba(255, 126, 2, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 20px;
+}
